@@ -19,3 +19,7 @@
 5.The application will generate an HTML file called team.html.
 
   ## Visual
+
+
+## Screenshot
+![](./Main/dist/10.png)
