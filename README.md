@@ -20,7 +20,7 @@
 
 3.Follow the prompts to enter information for your team members.
 
-4.Once you have entered all of your team members, select "No" when asked if you would like to add another team member.
+4.Once you have entered all of your team members, select "Finish" when asked if you would like to add another team member.
 
 5.The application will generate an HTML file called team.html.
 
