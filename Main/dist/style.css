@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  text-align: center;
+  background-color: lavender;
+}
+
+h1 {
+  text-align: center; 
+  font-size: 42px;
+  font-weight: bold;
+  background-color: lightblue;
+  margin: 0;
+}
+
+.team-group {
+  margin-top: 30px;
+}
+
+.team-group h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.team-member {
+  display: inline-block;
+  width: 200px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  vertical-align: top; 
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.3); 
+}
+
+.team-member h3 {
+  margin-top: 0; 
+  font-size: 24px; 
+}
+
+.team-member p {
+  margin-bottom: 5px; 
+}
+
+.team-member a {
+  text-decoration: none;
+  color: blue; 
+  transition: color 0.2s; 
+}
+
+.team-member a:hover {
+  color: darkblue; 
+}
+
+.team-member p:last-child {
+  margin-bottom: 0; 
+}
+
+.team-member p:nth-child(3) {
+  margin-top: 5px; 
+}
+
+div.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
