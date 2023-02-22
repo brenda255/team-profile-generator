@@ -163,16 +163,23 @@ const internQuestions = () => {
         });
     };
     const generateHTML = () => {
-        // Create the HTML string with the manager's information
-        let html = `
-          <div>
-            <h2>${createTeam[0].name}</h2>
-            <p>ID: ${createTeam[0].id}</p>
-            <p>Email: <a href="mailto:${createTeam[0].email}">${createTeam[0].email}</a></p>
-            <p>Office Number: ${createTeam[0].officeNumber}</p>
-          </div>
-        `;
-      
+        //Create the head section
+        let html = `<!DOCTYPE html>
+        <html lang="en">
+          <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta http-equiv="X-UA-Compatible" content="ie=edge">
+            <link rel="stylesheet" href="./dist/style.css">
+            <title>My Team</title>
+          </head>
+          <body>
+            <div>
+              <h2>${createTeam[0].name}</h2>
+              <p>ID: ${createTeam[0].id}</p>
+              <p>Email: <a href="mailto:${createTeam[0].email}">${createTeam[0].email}</a></p>
+              <p>Office Number: ${createTeam[0].officeNumber}</p>
+            </div>`;      
         // Add the HTML for each engineer and intern
         for (let i = 1; i < createTeam.length; i++) {
           if (createTeam[i].role === 'Engineer') {
