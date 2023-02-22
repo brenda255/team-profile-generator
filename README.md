@@ -6,20 +6,26 @@
   To install the Team Profile Generator, you will need to have Node.js installed on your computer. Once you have Node.js installed, follow these steps:
 
 1.Download or clone the repository to your local machine.
+
 2.Open a terminal window and navigate to the project directory.
+
 3.Install the necessary dependencies by running npm install.
 
   ## Usage
   To use the Team Profile Generator, follow these steps:
 
 1.Open a terminal window and navigate to the project directory.
+
 2.Run the application by typing node index.js and pressing enter.
+
 3.Follow the prompts to enter information for your team members.
+
 4.Once you have entered all of your team members, select "No" when asked if you would like to add another team member.
+
 5.The application will generate an HTML file called team.html.
 
-  ## Visual
-
+ ## Visual
+ https://user-images.githubusercontent.com/115198624/220734224-a2ec50e9-e766-427b-9922-905d6f523465.mp4
 
 ## Screenshot
 ![](./Main/dist/10.png)
